@@ -3,7 +3,7 @@ html {
 }
 body {
 	font-family: 'Roboto Slab', serif;
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0;
 	padding: 0;
 
@@ -14,11 +14,13 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37474f', endColorstr='#ffffff',GradientType=1 );
 
 }
-
+a {
+	color: #48A1CD;
+}
 
 .body-wrapper {
 
-height: 100%;
+/*height: 100%;*/
 	width: 960px;
 	position: absolute;
 	left: 50%;
@@ -44,7 +46,7 @@ height: 100%;
 	width: 624px;
 	background-color: #FFF;
 	display: inline-block;
-	/*padding-top: 40px;*/
+	padding-bottom: 40px;*/
 }
 .side-block.side-header {
 	padding-top: 1em;
@@ -81,17 +83,49 @@ h3.position {
 	margin-top: -0.25em;
 	margin-right: 0.25em;
 	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+.side-icon.aboutMe {
+	background-image: url('../pics/icon-big/aboutMe.jpg')
+}
+.side-icon.contacts {
+	background-image: url('../pics/icon-big/contacts.jpg')
+} 
+.side-icon.skills1 {
+	background-image: url('../pics/icon-big/skills1.jpg')
+} 
+.side-icon.skills2 {
+	background-image: url('../pics/icon-big/skills2.jpg')
+} 
 .side-icon-small {
 	background-color: #FFF;
 	width: 24px;
 	height: 24px;
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: -0.25em;
-	margin-right: 0.25em;
+	margin-top: -0.15em;
+	margin-right: 0.85em;
 	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+.side-icon-small.portfolio { background-image: url('../pics/icon-small/portfolio.jpg') }
+.side-icon-small.cover-letter { background-image: url('../pics/icon-small/cover-letter.jpg')}
+.side-icon-small.resume { background-image: url('../pics/icon-small/resume.jpg') }
+.side-icon-small.email { background-image: url('../pics/icon-small/email.jpg') }
+.side-icon-small.github { background-image: url('../pics/icon-small/github.jpg') }
+.side-icon-small.city { background-image: url('../pics/icon-small/city.jpg') }
+.side-icon-small.js { background-image: url('../pics/icon-small/js.jpg')}
+.side-icon-small.html-css { background-image: url('../pics/icon-small/html-css.jpg')}
+.side-icon-small.php { background-image: url('../pics/icon-small/php.jpg')}
+.side-icon-small.sql { background-image: url('../pics/icon-small/sql.jpg')}
+.side-icon-small.photoshop { background-image: url('../pics/icon-small/photoshop.jpg')}
+.side-icon-small.apache { background-image: url('../pics/icon-small/apache.jpg')}
+.side-icon-small.angular { background-image: url('../pics/icon-small/angular.jpg')}
+.side-icon-small.node { background-image: url('../pics/icon-small/node.jpg')}
+.side-icon-small.react { background-image: url('../pics/icon-small/react.jpg')}
+.side-icon-small.python { background-image: url('../pics/icon-small/python.jpg')}
 ul.side-list {
 	list-style: none;
 	padding: 0 0 0 6px;
@@ -111,7 +145,7 @@ ul.side-list li {
 	margin-top: 2.15em; 
 }
 .content-block {
-	padding: 0px 123px
+	padding: 0px 60px 0px 123px
 }
 .content-block.content-block__wild {
 	padding: 0px 60px
@@ -125,7 +159,14 @@ ul.side-list li {
 	margin-top: -0.20em;
 	margin-right: 0.25em;
 	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+.content-icon-big.cover-letter { background-image: url('../pics/icon-huge/cover-letter.jpg')}
+.content-icon-big.experiense { background-image: url('../pics/icon-huge/experiense.jpg')}
+.content-icon-big.education { background-image: url('../pics/icon-huge/education.jpg')}
+.content-icon-big.portfolio { background-image: url('../pics/icon-huge/portfolio.jpg')}
+
 .content-h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
@@ -141,8 +182,9 @@ ul.side-list li {
 }
 .img-wild {
 	margin-top: 2em;
-	width: 504px;
-	height: 252px;
+	width: 500px;
+	height: 250px;
+	border: 2px  solid #90a4ae;
 }
 .content-h3.content-h3__project {
 	margin-top: 1em; 
