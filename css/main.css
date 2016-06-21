@@ -126,6 +126,7 @@ h3.position {
 .side-icon-small.node { background-image: url('../pics/icon-small/node.jpg')}
 .side-icon-small.react { background-image: url('../pics/icon-small/react.jpg')}
 .side-icon-small.python { background-image: url('../pics/icon-small/python.jpg')}
+.side-icon-small.eng { background-image: url('../pics/icon-small/eng.jpg')}
 ul.side-list {
 	list-style: none;
 	padding: 0 0 0 6px;
