@@ -46,7 +46,7 @@ a {
 	width: 624px;
 	background-color: #FFF;
 	display: inline-block;
-	padding-bottom: 40px;*/
+	padding-bottom: 40px;
 }
 .side-block.side-header {
 	padding-top: 1em;
@@ -127,6 +127,9 @@ h3.position {
 .side-icon-small.react { background-image: url('../pics/icon-small/react.jpg')}
 .side-icon-small.python { background-image: url('../pics/icon-small/python.jpg')}
 .side-icon-small.eng { background-image: url('../pics/icon-small/eng.jpg')}
+.side-icon-small.vue { background-image: url('../pics/icon-small/vue.jpg')}
+.side-icon-small.ts { background-image: url('../pics/icon-small/ts.jpg')}
+.side-icon-small.scrum { background-image: url('../pics/icon-small/scrum.jpg')}
 ul.side-list {
 	list-style: none;
 	padding: 0 0 0 6px;
