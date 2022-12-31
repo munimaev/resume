@@ -1,6 +1,6 @@
 Мое резюме
 ==========
 
-<a href="https://munimaev.github.io/resume/">Онлайн версия</a>
+<a href="https://munimaev.github.io/resume/">CV web version</a>
 
-<a href="https://munimaev.github.io/resume/Munimaev_Vladislav.pdf">Версия в формате pdf</a>
+<a href="https://munimaev.github.io/resume/Vladislav_Munimaev.pdf">CV pdf version</a>
