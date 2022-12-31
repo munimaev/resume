@@ -1,4 +1,4 @@
-Мое резюме
+My CV
 ==========
 
 <a href="https://munimaev.github.io/resume/">CV web version</a>
